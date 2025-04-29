@@ -18,14 +18,14 @@ function HomePage({ setCurrentPage }: HomePageProps) {
                         <div className="cursor-pointer justify-between text-right hover:bg-black/50 transition w-full rounded-lg bg-black/25 p-4 flex gap-2 items-center text-gray-300">
                             <span className="text-gray-500 font-semibold">Email: </span>
                             <code className="px-2 rounded bg-gray-800 py-0.5">
-                                <input type="email" className="bg-transparent" id="emailInput"></input>
+                                <input type="email" className="bg-transparent" id="emailInput" placeholder="user@example.com"></input>
                             </code>
                         </div>
 
                         <div className="cursor-pointer hover:bg-black/50 justify-between text-right transition w-full rounded-lg bg-black/25 p-4 flex gap-2 items-center text-gray-300">
                             <span className="text-gray-500 font-semibold">Password: </span>
                             <code className="px-2 rounded bg-gray-800 py-0.5">
-                                <input type="password" id="passwordInput"></input>
+                                <input type="password" id="passwordInput" placeholder="password123"></input>
                             </code>
                         </div>
 
